@@ -1,0 +1,7 @@
+flowchart LR
+  A[Task] --> R{Router}
+  R --> S[SentimentAgent]
+  S --> C[CollisionDetector]
+  C --> X[ExecutionAgent]
+  R --- B[BudgetManager]
+  R --- O[Orchestrator]
