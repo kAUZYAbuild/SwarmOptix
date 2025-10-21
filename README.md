@@ -1,4 +1,4 @@
-# warmOptix
+# SwarmOptix
 
 **Modular swarm optimizer** for multi-agent systems. It load-balances work across agents (e.g., one for sentiment, one for execution), detects **collisions** (redundant/overlapping signals), and **auto-scales** concurrency based on compute budgets. Ships with a CLI demo and a FastAPI server so people can actually use it.
 
